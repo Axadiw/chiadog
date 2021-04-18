@@ -14,6 +14,7 @@ class EventPriority(Enum):
     the user needs to be notified about it
     """
 
+    VERYLOW = -2
     LOW = -1
     NORMAL = 0
     HIGH = 1

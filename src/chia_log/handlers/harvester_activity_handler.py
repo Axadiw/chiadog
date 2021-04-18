@@ -167,7 +167,7 @@ class FoundProofs(HarvesterConditionChecker):
             message = f"Found {obj.found_proofs_count} proof(s)!"
             logging.info(message)
             return Event(
-                type=EventType.USER, priority=EventPriority.LOW, service=EventService.HARVESTER, message=message
+                type=EventType.USER, priority=EventPriority.VERYLOW, service=EventService.HARVESTER, message=message
             )
 
         return None
